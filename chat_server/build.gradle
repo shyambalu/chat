@@ -1,0 +1,13 @@
+apply plugin: 'application'
+
+//noinspection GroovyUnusedAssignment
+mainClassName = 'com.shyam.ChatServer'
+
+dependencies {
+    compile 'org.eclipse.jetty.websocket:javax-websocket-server-impl:9.2.4.v20141103'
+    compile project(':chat_dto')
+}
+
+jar {
+    baseName = 'chat-server'
+}

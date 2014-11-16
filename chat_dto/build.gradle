@@ -1,0 +1,12 @@
+apply plugin: 'application'
+
+//noinspection GroovyUnusedAssignment
+mainClassName = 'com.shyam.ChatServer'
+
+dependencies {
+    compile 'org.glassfish:javax.json:1.0.4'
+}
+
+jar {
+    baseName = 'chat-dto'
+}
