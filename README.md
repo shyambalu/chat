@@ -11,7 +11,7 @@ Run server
 ./gradlew :chat_server:run
 ```
 
-Run client 
+Run client, multiple clients can be spawned
 ```
 ./gradlew :chat_client:run
 ```
